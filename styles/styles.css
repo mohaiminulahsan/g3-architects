@@ -280,27 +280,27 @@ header {
 --------------*/
 @keyframes image-zoom-in {
   0% {
-    background-image: url("./images/cat.jpg");
+    background-image: url("../images/cat.jpg");
     background-repeat: no-repeat;
     transform: scale(0, 0) rotate(72deg);
   }
   25% {
-    background-image: url("./images/cat.jpg");
+    background-image: url("../images/cat.jpg");
     background-repeat: no-repeat;
     transform: scale(0.25, 0.25) rotate(144deg);
   }
   50% {
-    background-image: url("./images/cat.jpg");
+    background-image: url("../images/cat.jpg");
     background-repeat: no-repeat;
     transform: scale(0.5, 0.5) rotate(216deg);
   }
   75% {
-    background-image: url("./images/cat.jpg");
+    background-image: url("../images/cat.jpg");
     background-repeat: no-repeat;
     transform: scale(0.75, 0.75) rotate(288deg);
   }
   100% {
-    background-image: url("./images/cat.jpg");
+    background-image: url("../images/cat.jpg");
     background-repeat: no-repeat;
     transform: scale(1, 1) rotate(360deg);
   }
@@ -430,7 +430,7 @@ textarea {
 
 /* -------------------Mobile Device styling starts here---------------------------- */
 @media only screen and (max-width: 576px) {
-  /* -----header styles start----- */
+  /* -----header style starts here----- */
   .header {
     max-width: 100%;
     margin: 0 20px;
@@ -454,9 +454,9 @@ textarea {
     text-align: right;
     justify-content: space-evenly;
   }
-  /* -----header styles end----- */
+  /* -----header style ends here----- */
 
-  /* --quick-list styles start-- */
+  /* --quick-list style starts here-- */
   .quick-list {
     width: 100%;
     flex-direction: column;
@@ -471,9 +471,9 @@ textarea {
   .quick-list-details {
     margin: 0 20px;
   }
-  /* ---quick-list styles end--- */
+  /* ---quick-list style ends here--- */
 
-  /* features starts here */
+  /* ---features style starts here--- */
   .features {
     width: 80%;
     margin: 0 30px;
@@ -490,9 +490,9 @@ textarea {
     bottom: -10px;
     position: relative;
   }
-  /*  features ends here  */
+  /* ---features style ends here--- */
 
-  /* facts starts here */
+  /* ---facts style starts here--- */
   .facts {
     width: 100%;
     margin: 0 20px;
@@ -504,9 +504,9 @@ textarea {
     justify-items: center;
     margin-bottom: 150px;
   }
-  /* facts ends here */
+  /* ---facts style ends here--- */
 
-  /* sponsors starts here */
+  /* ---sponsors style starts here--- */
   .sponsors {
     width: 90%;
     margin: 0 20px;
@@ -534,9 +534,9 @@ textarea {
       "five five";
     justify-items: center;
   }
-  /* sponsors ends here */
+  /* ---sponsors style ends here--- */
 
-  /* contacts and footer start */
+  /* ---contacts and footer style starts here--- */
   .contacts {
     width: 100%;
     flex-direction: column;
@@ -555,6 +555,6 @@ textarea {
     padding: 20px;
     width: 70%;
   }
-  /* contacts and footer end */
+  /* ---contacts and footer style ends here--- */
 }
-/* Mobile Device styling ends here */
+/* --------------------Mobile Device styling ends here----------------------------- */
