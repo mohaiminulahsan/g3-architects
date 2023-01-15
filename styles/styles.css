@@ -278,3 +278,61 @@ header {
 /*  all the facts and their styles ends here  */
 
 /* -----------------------facts section ends here---------------------------------- */
+
+/* -------------------------------------------------------------------------------- */
+
+/* --------------------sponsors section starts here-------------------------------- */
+.sponsors {
+  width: 1200px;
+  margin: auto;
+}
+/* sponsors-header styling starts here */
+.sponsors-heading {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.sponsors-details {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  text-align: center;
+  margin-bottom: 75px;
+}
+/* sponsors-header styling ends here */
+
+/* all the sponsors and their styling starts here */
+.sponsors-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sponsor {
+  margin-bottom: 130px;
+  filter: grayscale(100%);
+}
+.sponsor-icn {
+}
+/*  all the sponsors and their styling ends here  */
+
+/* ---------------------sponsors section ends here--------------------------------- */
+
+/* -------------------------------------------------------------------------------- */
+
+/* ---------------------footer styling starts here--------------------------------- */
+.footer {
+  width: 1200px;
+  background-color: #FFF4E7;
+  border-radius: 10px;
+  margin: 0 auto 150px;
+  padding: 40px 0;
+}
+.footer-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+}
+/* ----------------------footer styling ends here---------------------------------- */
