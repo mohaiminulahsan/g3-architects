@@ -254,7 +254,7 @@ header {
   width: 170px;
   border: 1px solid #ff900e;
   border-radius: 10px;
-  padding: 45px 35px;
+  padding: 43.30px 24.01px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -274,6 +274,41 @@ header {
   font-weight: 600;
   font-size: 20px;
   color: #727272;
+}
+
+/*--------------
+    Animation 
+--------------*/
+@keyframes image-zoom-in {
+  0% {
+    background-image: url("/images/cat.jpg");
+    background-repeat: no-repeat;
+    transform: scale(0,0) rotate(72deg);
+  }
+  25%{
+    background-image: url("/images/cat.jpg");
+    background-repeat: no-repeat;
+    transform: scale(0.25,0.25) rotate(144deg);
+  }
+  50%{
+    background-image: url("/images/cat.jpg");
+    background-repeat: no-repeat;
+    transform: scale(0.50,0.50) rotate(216deg);
+  }
+  75%{
+    background-image: url("/images/cat.jpg");
+    background-repeat: no-repeat;
+    transform: scale(0.75,0.75) rotate(288deg);
+  }
+  100%{
+    background-image: url("/images/cat.jpg");
+    background-repeat: no-repeat;
+    transform: scale(1,1) rotate(360deg);
+  }
+}
+.fact:hover {
+  animation: image-zoom-in 2s linear 0.1s 1 forwards;
+  animation-play-state:running;
 }
 /*  all the facts and their styles ends here  */
 
@@ -313,21 +348,83 @@ header {
   margin-bottom: 130px;
   filter: grayscale(100%);
 }
-.sponsor-icn {
-}
 /*  all the sponsors and their styling ends here  */
 
 /* ---------------------sponsors section ends here--------------------------------- */
 
 /* -------------------------------------------------------------------------------- */
 
-/* ---------------------footer styling starts here--------------------------------- */
+/* ------------------contacts and footer styling starts here----------------------- */
+.contacts-section-container {
+  background-image: linear-gradient(
+    #ff900e 0%,
+    #fff4e7 60%,
+    #ff900e 80%,
+    #fff4e7 100%
+  );
+  filter: contrast(110%);
+  padding-bottom: 20px;
+}
+.contacts {
+  width: 1200px;
+  margin: 0 auto 25px;
+  padding: 75px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* contacts-info styling starts here */
+.contacts-info {
+}
+.contacts-heading {
+  margin-bottom: 60px;
+}
+.contacts-container {
+  display: flex;
+  column-gap: 25px;
+}
+.info-tel-email,
+.info-address {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+  margin-bottom: 25px;
+}
+.social-media-info {
+  display: flex;
+  column-gap: 15px;
+}
+.social-media-info > a > i {
+  font-size: 27px;
+  filter: grayscale(100%);
+}
+/*  contacts-info styling ends here  */
+
+/* contacts-input styling starts here */
+.contacts-input {
+}
+.contacts-input > .name {
+  margin-right: 20px;
+}
+.contacts-input > .name,
+.email,
+textarea {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 3px;
+}
+/* contacts-input styling ends here */
+
+/* footer styling starts here */
 .footer {
   width: 1200px;
-  background-color: #FFF4E7;
+  background-color: #fff4e7;
   border-radius: 10px;
-  margin: 0 auto 150px;
+  margin: 0 auto 50px;
   padding: 40px 0;
+  filter: drop-shadow(1px 1px 3px hsl(0, 1%, 38%));
 }
 .footer-text {
   text-align: center;
@@ -335,4 +432,6 @@ header {
   font-size: 20px;
   color: #424242;
 }
-/* ----------------------footer styling ends here---------------------------------- */
+/* footer styling ends here */
+
+/* -----------------contacts and footer styling ends here-------------------------- */
