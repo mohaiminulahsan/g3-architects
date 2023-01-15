@@ -280,27 +280,27 @@ header {
 --------------*/
 @keyframes image-zoom-in {
   0% {
-    background-image: url("/images/cat.jpg");
+    background-image: url("./images/cat.jpg");
     background-repeat: no-repeat;
     transform: scale(0, 0) rotate(72deg);
   }
   25% {
-    background-image: url("/images/cat.jpg");
+    background-image: url("./images/cat.jpg");
     background-repeat: no-repeat;
     transform: scale(0.25, 0.25) rotate(144deg);
   }
   50% {
-    background-image: url("/images/cat.jpg");
+    background-image: url("./images/cat.jpg");
     background-repeat: no-repeat;
     transform: scale(0.5, 0.5) rotate(216deg);
   }
   75% {
-    background-image: url("/images/cat.jpg");
+    background-image: url("./images/cat.jpg");
     background-repeat: no-repeat;
     transform: scale(0.75, 0.75) rotate(288deg);
   }
   100% {
-    background-image: url("/images/cat.jpg");
+    background-image: url("./images/cat.jpg");
     background-repeat: no-repeat;
     transform: scale(1, 1) rotate(360deg);
   }
